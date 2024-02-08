@@ -36,14 +36,11 @@
        2.15 Footer Area
    3. Blog Details
     
-
 -----------------------------------------------------------------------------------*/
-
 
 /*----------------------------------------*/
 /*  1. Theme default CSS
 /*----------------------------------------*/
-
 
 /*google font*/
 
@@ -280,7 +277,6 @@ font-family: 'Open Sans', sans-serif;
   END Header Area
   ===========================*/
 
-
 /*===========================
   2.2 Slider Area
   ===========================*/
@@ -373,7 +369,8 @@ font-family: 'Open Sans', sans-serif;
 ===========================*/
 
 .background-image {
-    /* background: url(../img/bg/img-background.jpg) center center/cover no-repeat; */
+    background: url(../img/bg/blog-4.jpg) center center/cover no-repeat;
+    box-shadow: inset 0 0 0 99999px rgb(0 171 51 / 17%);
     position: relative;
 }
 
@@ -960,7 +957,6 @@ END Team Area
     letter-spacing: 0;
     margin-top: 9px;
 }
-
 
 /*===========================
 END Achivement Area
@@ -1839,7 +1835,6 @@ END Blog Standard
     display: block;
     margin-bottom: 22px;
 }
-
 
 .widget--category-list ul li a:hover,
 .widget--archive-list ul li a:hover,
