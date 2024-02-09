@@ -342,6 +342,7 @@ color: black !important;
 
 .slider-m-img img {
     max-width: 268px;
+    border-radius: 25px;
 }
 
 .d-flex {
