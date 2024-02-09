@@ -272,7 +272,15 @@ font-family: 'Open Sans', sans-serif;
 .slicknav_nav a:hover {
     border-radius: 0;
 }
-
+.open>.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dropdown-menu>li>a{
+padding: 10px 13px !important;
+color: black !important;
+}
 /*===========================
   END Header Area
   ===========================*/
@@ -527,7 +535,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .section-title.text-black h2 {
-    color: #fff;
+    color: #272727;
 }
 
 .section-title p {
@@ -1872,6 +1880,11 @@ END Blog Standard
 .widget-tag-list a:hover {
     background-color: #fe5f1b;
 }
+@media screen and (max-width: 750px) {
+    .pricing-row {
+flex-direction: column;
+    }
+  }
 
 /*===========================
 END Blog Details
